@@ -46,9 +46,11 @@ if(checkup){
       fire(0.25, {
         spread: 26,
         startVelocity: 55,
+        decay: 0.91,
       });
       fire(0.2, {
         spread: 60,
+        decay: 0.91,
       });
       fire(0.35, {
         spread: 100,
@@ -64,6 +66,7 @@ if(checkup){
       fire(0.1, {
         spread: 120,
         startVelocity: 45,
+        decay: 0.91,
       });
     }
     
