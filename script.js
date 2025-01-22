@@ -67,7 +67,7 @@ if(checkup){
       });
     }
     
-    const element = document.querySelector(`#a-u-wrapper`);
+    const element = document.querySelector(`#a-u-confetti-tracker`);
     
     let interval;
 let isPaused = false;
@@ -87,7 +87,7 @@ function checkOpacity() {
                 interval = setInterval(checkOpacity, 200);
                 isRunning = true;
             }
-        }, 2000);
+        }, 5000);
     }
 }
 
